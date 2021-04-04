@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #F7F7F7;
+}
+
+.container {
+    padding: 15px;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background: #fafafa;
+    box-shadow: 0 0 4px 2px #bdbdbd;
+}
+
+/*Шапка сайта*/
+
+#header-main {
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+    z-index: 0;
+}
+
+header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: #013220;
+}
+
+header div {
+    display: inline-block;
+    color: white;
+    font-size: 36px;
+}
+
+header img {
+    height: 60px;
+    margin-left: 30px;
+}
+
+menu {
+    float: right;
+}
+
+menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+menu a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.selected-menu {
+    color: yellow;
+    text-decoration: underline;
+
+}
+
+/*Шапка сайта*/
+
+/* Основная часть */
+
+main h1, h2, h4 {
+    text-align: center;
+}
+
+main h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin: 10px 10px;
+}
+
+main img {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+main li {
+    margin-left: 60px;
+}
+
+td {
+    padding: 10px;
+}
+
+ol li, ul li {
+    padding-bottom: 10px;
+}
+
+/* Основная часть*/
+
+
+#footer-main {
+    width: 100%;
+    height: 40px;
+    margin: 0px auto;
+    z-index: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    height: 35px;
+    width: 100%;
+    background: #596054;
+}
+
+footer div {
+    padding: 5px;
+    color: rgb(213, 213, 213);
+    text-align: center;
+}

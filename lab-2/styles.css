@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(247, 247, 247);
+}
+
+/* Шапка сайта */
+
+header {
+  height: 70px;
+  background: rgb(41, 41, 41);
+}
+
+header img {
+  height: 70px;
+  float: left
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Основная часть */
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  background: rgb(240, 240, 240);
+  box-shadow: 0 0 4px 2px #bdbdbd;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main ul {
+  margin-left: 40px;
+}
+
+main ol li {
+  margin-left: 40px;
+}
+
+main div {
+  float: left;
+  border: 2px solid red;
+  margin: 8px;
+}
+
+table {
+  border-collapse: collapse; /* Убираем двойные границы между ячейками */
+  border: 1px solid #000; /* Рамка вокруг таблицы */
+}
+ 
+td {
+  padding: 5px; /* Поля вокруг текста */
+  border: 1px solid #000; /* Рамка вокруг ячеек */
+ }
+
+main p {
+  padding-left: 20px;
+}
+
+/* Подвал сайта */
+
+#block-for-footer {
+  width: 100%;
+  height: 40px;
+  margin: 0px auto;
+  z-index: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0; bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: rgb(41, 41, 41);
+}
+
+footer p {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}

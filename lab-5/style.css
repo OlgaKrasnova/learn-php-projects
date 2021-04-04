@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 60px;
+    background: rgb(41, 41, 41);
+}
+
+header img {
+    height: 60px;
+    float: left
+}
+
+#block-for-footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    z-index: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: rgb(41, 41, 41);
+    text-align: center;
+    color: white;
+}
+  
+
+/**************************************/
+
+/* вертикальное меню */
+/*#main_menu a { 
+    display: block; 
+    margin-left: 25%;
+    width: 15%; 
+    color: #F00; 
+} */
+
+/* горизонтальное меню */
+
+#main_menu a { 
+    display: block; 
+    width:25%; 
+    float: left; 
+    color: rgb(88, 106, 194); 
+    margin-left: 25%; 
+    margin-bottom: 10px;
+}
+
+#main_menu { 
+    clear: all; 
+}
+
+#main_menu a:hover, #product_menu a:hover { 
+    color: rgb(255, 0, 0); 
+}
+
+#product_menu {
+    float: left;
+}
+
+#product_menu a {
+    display: block; 
+    width: 300px; 
+    color: rgb(88, 106, 194); 
+    line-height: 1.5;
+}
+
+#main_menu .selectedMenu, #main_menu .selectedMenu:hover, #product_menu .selectedMenu, #product_menu.selectedMenu:hover{ 
+    color: rgb(18, 216, 0); 
+}
+
+.ttSingleRow {
+    float: left;
+    font-size: 28px;
+}
+
+.ttRow {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 100px;
+    float: left;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 30px 5px 30px;
+    border: 1px solid black;
+}
