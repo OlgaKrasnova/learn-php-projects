@@ -1,0 +1,61 @@
+header {
+    padding: 5px;
+    height: 70px;
+    background: rgb(41, 41, 41);
+    color: #fff;
+}
+
+header img {
+    height: 60px;
+    float: left
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.date {
+    padding: 5px;
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 100%;
+    background: rgb(41, 41, 41);
+    text-align: center;
+    color: white;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px 8px 8px 8px;
+    transition: 0.3s;
+    cursor: pointer; 
+    font-size: 18px;
+}
+
+button:hover {
+    background: #28a745;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #28a745;
+}
+
+input[type="text"] {
+    border-radius: 0;
+}
+
+.auth {
+    margin-top: 20px;
+    margin-left: 120px !important;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.auth:focus, input[type="file"]:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-left: 60px;
+}
